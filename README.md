@@ -61,16 +61,23 @@ All the answer fields are populated.
 The decision vector is the value of the vector. The optimal value is the optimal value of the function. Warning record any warning that might be generated during the solving while status displays the staus of the solution.
 
 **One of the Following status might be available after the problem is solved:**
-(1).**Optimal** - Denoates the soltuion is optimal
-(2).**Terminated beacuse of unboundedness** - Denotes the problem is unbounded and hence the process was terminated
-(3).**Too many iteration solution not found** - Conveys that the solver exhausted the manximum number of iterations allowed and did not arrive at an answer
-(4).**Solution space Infeasible Terminated** - Singnifies infeasibility of the problem and hence the procedure was terminated prematurely
-(5).**Nan** - Usally happens when the solver terminates prematurely either due to data inconsistency or problems encountered during solution process
+1. **Optimal** - Denoates the soltuion is optimal
+2. **Terminated beacuse of unboundedness** - Denotes the problem is unbounded and hence the process was terminated
+3. **Too many iteration solution not found** - Conveys that the solver exhausted the manximum number of iterations allowed and did not arrive at an answer
+4. **Solution space Infeasible Terminated** - Singnifies infeasibility of the problem and hence the procedure was terminated prematurely
+5. **Nan** - Usally happens when the solver terminates prematurely either due to data inconsistency or problems encountered during solution process
 
 **One of the folowing Warnings might be generated:**
-(1).**Optimal not unique** - Denoates the existance of multiple optimas. Though in such cases the staus is optimal but the solver finds only one of them.
-(2).**Nan** - Usally happens when the solver terminated prematurely either due to data inconsistency or problems encountered during the process of finding the solution.
+1. **Optimal not unique** - Denoates the existance of multiple optimas. Though in such cases the staus is optimal but the solver finds only one of them.
+2. **Nan** - Usally happens when the solver terminated prematurely either due to data inconsistency or problems encountered during the process of finding the solution.
 
 ![alt text](https://github.com/sharabhs/Linear-Program-Solver-LPS-/blob/master/Snapshot.jpg "Snapshot of the GUI")
+
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
 
