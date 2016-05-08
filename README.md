@@ -21,6 +21,8 @@ The solver can be used with Matlab 2010 or above. Extract the downloaded files a
 
 Matlab 2012 or Higher is needed for using the GUI application.
 
+
+
 Matlab runtime complier needs to be installed for running the standalone executable in windows.
 
 ##Using the Package
@@ -50,3 +52,5 @@ The decision vector or the variables are displayed as x vector and the objective
 ###Running the Graphical User Interface(GUI)
 The graphical user interface or the GUI can be be installed as an application in matlab which is available under apps in matlab after the installation is complete. It can also be run as a standalone executable in windows. Running the executable requires installation of Matlab Runtime Complier, that needs to be done separatley before running the file. The matlab Runtime compiler is availabe at   
 and can also be downloaded from this repository.
+
+![alt text](https://github.com/sharabhs/Linear-Program-Solver-LPS-/blob/master/Snapshot.jpg "Snapshot of the GUI")
