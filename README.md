@@ -29,9 +29,11 @@ Matlab runtime complier needs to be installed for running the standalone executa
 ###Command Line Solver
 The solver is used as a function in Matlab after parameters A,B,C is stored in Matlab. The general format for calling the solver is 
 
-######[optimal_value,x,status,warning] = LP_solve(A,B,C,'direction','mode'). 
+**[optimal_value,x,status,warning] = LP_solve(A,B,C,'direction','mode')**
 
 A,B and C are matrices or vectors as defined in the general problem structure. The direction is specified as 'min' or 'max' for minimization or maximization problems respectively. The mode is specified as silent or normal.
+
+During the silent mode the solver will not display the tableaus, any warning or massages including the answer. The solver will work even if the mode is not specified. If the mode is not specified the solver will work in normal mode displaying all massages, warnings and answers.
 
 For output the optimal_value is the optimal value of the function, x is the variable vector or the decision vector, staus indicated the status of the problem after it is solve while the warning records any warning that might be generated during the process of solving the problem.
 
