@@ -54,15 +54,13 @@ The decision vector or the variables are displayed as x vector and the objective
 ###Running the Graphical User Interface(GUI)
 The graphical user interface or the GUI can be be installed as an application in matlab which is available under apps in Matlab after the installation is complete. It can also be run as a standalone executable in windows. Running the executable requires installation of Matlab Runtime Complier, that needs to be done separatley before running the file. The Matlab Runtime compiler is availabe at and can also be downloaded from this repository.
 
-Running the graphical user interface is simple just open up the application and enter the parameters of the problem, that included entering the matrices or vector A,B and C. Select the direction as Minimization or Maximization from the dropdownlist. Then press solve to solve the problem.
-
-All the answer fields are populated. 
+Running the graphical user interface is simple just open up the application and enter the parameters of the problem, that included entering the matrices or vector A,B and C. Select the direction as Minimization or Maximization from the dropdownlist. Then press solve to solve the problem. All the answer fields are populated. 
 
 The decision vector is the value of the vector. The optimal value is the optimal value of the function. Warning record any warning that might be generated during the solving while status displays the staus of the solution.
 
 **One of the Following status might be available after the problem is solved:**
 
-1. **Optimal** - Denoates the soltuion is optimal
+1. **Optimal** - Denotes the soltuion is optimal
 2. **Terminated beacuse of unboundedness** - Denotes the problem is unbounded and hence the process was terminated
 3. **Too many iteration solution not found** - Conveys that the solver exhausted the manximum number of iterations allowed and did not       arrive at an answer
 4. **Solution space Infeasible Terminated** - Singnifies infeasibility of the problem and hence the procedure was terminated prematurely
