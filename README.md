@@ -46,3 +46,7 @@ For output the optimal_value is the optimal value of the function, x is the vari
     After supplying these inputs call LP_solve(A,B,C,'min').
 
 The decision vector or the variables are displayed as x vector and the objective value computed at that point is also displayed. The Tableaus for the first and second pass are also diplayed. The printing of tableaus can be suppressed by spepcifying the mode. 
+
+###Running the Graphical User Interface(GUI)
+The graphical user interface or the GUI can be be installed as an application in matlab which is available under apps in matlab after the installation is complete. It can also be run as a standalone executable in windows. Running the executable requires installation of Matlab Runtime Complier, that needs to be done separatley before running the file. The matlab Runtime compiler is availabe at   
+and can also be downloaded from this repository.
